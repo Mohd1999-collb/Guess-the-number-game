@@ -15,7 +15,7 @@ body{
 .container{
     position: absolute;
     width: 50%;
-    min-width: 580px;
+    min-width: 280px;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
@@ -63,4 +63,12 @@ p{
     font-weight: 400;
     font-size: 20px;
     margin: 3px;
+}
+
+// If max-width:1255 then render this media queary
+@media only screen and (max-width:1255px) {
+    h3{
+        font-size: 20px;
+        text-align: center;
+    }
 }
